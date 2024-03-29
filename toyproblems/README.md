@@ -21,3 +21,15 @@ This is a JavaScript function that calculates number of points a driver will rec
 
 # Code Challenge 3
 This is the highlight of Week 1 Code Challenge
+## Description
+The salary calculator is a JavaScript program that computes the net salary of an employee.
+## Set Up Instructions
+To use the Salary Calculator, follow these steps:
+
+
+1. Open a terminal or command prompt and navigate to the directory containing "netsalarycalculator.js".
+2. Run the program using Node.js 
+
+3. Follow the prompts to enter the basic salary and benefits of the employee.
+4. The program will calculate the gross salary, KRA tax, NHIF deduction, NSSF deduction, and net salary, and display the results.
+

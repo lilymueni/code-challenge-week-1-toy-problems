@@ -4,7 +4,7 @@ function speedDetector(speed) {
         const speedLimit = 70;
         const demeritPoints = 5;
     //Calculate number of points based on the speed
-        const points = Math.floor((speed - speedLimit) / kmPerPoint);
+        const points = Math.floor((speed - speedLimit) / demeritPoints);
     //Check if speed is within stated limit and return "ok" if its within
         if (speed <= speedLimit) {
           return "Ok";
@@ -18,3 +18,4 @@ function speedDetector(speed) {
             return  "Points:",points;
           }
         }
+        
